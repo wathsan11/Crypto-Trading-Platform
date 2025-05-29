@@ -1,1 +1,1 @@
-# -Crypto-Trading-Platform-with-C++
+# Crypto-Trading-Platform-with-C++
