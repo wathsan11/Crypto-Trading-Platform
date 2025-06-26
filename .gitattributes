@@ -1,0 +1,22 @@
+# --- Source code (always use LF for consistency)
+*.c       text eol=lf
+*.cpp     text eol=lf
+*.h       text eol=lf
+*.cbp     text eol=lf
+*.layout  text eol=lf
+
+# --- Markdown and documentation (LF)
+*.md      text eol=lf
+LICENSE   text eol=lf
+README.md text eol=lf
+CODE_OF_CONDUCT.md text eol=lf
+
+# --- CSV files (LF to be compatible with Unix tools)
+*.csv     text eol=lf
+
+# --- Executables: mark as binary (no conversion)
+*.exe     binary
+
+# --- Ignore object & binary folders (handled by .gitignore ideally)
+bin/*     binary
+obj/*     binary
